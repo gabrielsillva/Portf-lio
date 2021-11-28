@@ -1,0 +1,228 @@
+
+#page-landing{
+    position: absolute;
+    height: 100px;
+    background-color:#100e13;
+}
+#block1{
+    margin: 0;
+    padding: 13rem;
+}
+#img-fundo{
+    max-width: 100%;
+    display: flex;
+}
+
+#contact{
+    
+    height:250%;
+}
+
+.text-top{
+
+  
+    position: absolute;
+    font-family: 'poppins';
+    color: #e3e3e3;
+    font-size: 70px;
+    margin-left:5%;
+    margin-top: 15%;
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.typing-animation{
+    animation: blinkCursor 500ms infinite normal, typing 4s steps(95) 1s normal;
+}
+
+.text-top2{
+    position: absolute;
+    font-family: 'poppins';
+    color: #e3e3e3;
+    font-size: 20px;
+    margin-top: 32% ;
+    margin-left: 5%;
+    opacity: 75%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#retangulo{
+    position: absolute;
+    width:250px;
+    height:60px;
+    border: 3px solid ;
+    border-color: #3773eb;
+
+    margin-left: 5%;
+    margin-top: 40%;
+}
+
+.contato{
+    color:#3773eb;    
+    font-family: 'poppins';
+    font-weight: 50%;
+    font-size: 18px;
+    
+    text-align: center;
+    margin-top: 5%;
+}
+
+.github{
+    position: absolute;
+    max-width: 5%;
+    margin-top:34.5%;
+    margin-left: 5%;
+}
+
+.linkedin{
+    position: absolute;
+    max-width: 5%;
+    margin-top: 34.5%;
+    margin-left: 10%;
+}
+
+
+
+.textb2{
+    position: absolute;
+    color:#3773eb ;
+    font-size: 55px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.about{
+    position: absolute;
+    font-family: 'poppins';
+    text-align: left;
+    margin-top: 15%;
+    margin-left: 5%;
+    color: #e3e3e3;
+    max-width: 500px;
+    font-weight: 100;
+    
+}
+.text-container h3{
+    display: flex;
+    position: absolute;
+    height: px;
+    left: 750px;
+
+    font-size:40px;
+    color: #e3e3e3;
+}
+
+.code{
+    justify-content: center;
+    display: flex;
+    max-width: 100%;
+  
+}
+
+
+
+.titleconta{
+    color:#3773eb ;
+    font-size: 55px;
+    margin-left: 5%;
+    text-align:left ;
+}
+
+.inputname{
+    margin-top: 2%;
+    text-indent: 10%;
+    margin-left: 5%;
+    width: 20%;
+    height: 60px;
+    
+}
+
+.inputemail{
+    text-indent: 10%;
+    margin-left: 1%;
+    width: 20%;
+    height: 60px;
+}
+
+.subject{
+    text-indent: 4.5%;
+    margin-left: 5%;
+    margin-top: 0.5%;
+    width: 41%;
+    height: 60px;
+}
+
+.msg{
+    text-indent: 4.5%;
+    margin-left: 5%;
+    width: 41%;
+    height: 150px;
+    margin-top: 0.5%;
+
+    Word-wrap: break-Word;
+    Word-break: break-all;
+}
+
+.botton{
+    position: absolute;
+    width:250px;
+    height:60px;
+    border: 3px solid ;
+    border-color: #3773eb;
+
+    margin-left: 27.5%;
+    margin-top: 1%;
+}
+
+.text-botton{
+    color:#3773eb ;
+    text-align: center;
+    margin-top: 6.5%;
+    align-items: center;
+}
+
+.contact-p{
+    color: #e3e3e3;
+    margin-left: 5%;
+}
+
+input{
+    
+    background-color: rgb(66, 66, 66);
+    
+}
+
+footer{
+    background-color:#3773eb ;
+    color: #e3e3e3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    
+    
+}
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to{
+        width: 18em;
+    }
+}
+
+
+@keyframes blinkCursor {
+    from {
+      border-right-color: #e3e3e3;
+    }
+    to {
+      border-right-color:transparent;
+    }
+  }
