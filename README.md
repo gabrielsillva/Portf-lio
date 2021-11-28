@@ -1,3 +1,3 @@
 <p align="center">
-<img src="img/background.png">
+<img src="./Img/prancheta1.png">
 </p>
